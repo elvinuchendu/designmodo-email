@@ -6,6 +6,15 @@ body,
 }
 
 .header{
-  background: #151515;
-  background-color: #151515;
+  background: $primary-color;
+  background-color: $primary-color;
+  .columns{
+  padding-top: 20px !important;
+  padding-right: 20px !important;
+  padding-bottom: 20px !important;
+  padding-left: 20px !important;
+  tbody > tr > th{
+    color: #fbfbfb;
+    }
+  }
 }
