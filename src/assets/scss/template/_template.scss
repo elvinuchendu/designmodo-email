@@ -10,11 +10,41 @@ body,
   background-color: $primary-color;
   .columns{
   padding-top: 20px !important;
-  padding-right: 20px !important;
+  // padding-right: 20px !important;
   padding-bottom: 20px !important;
   padding-left: 20px !important;
+  .logo{
+    width: 128px;
+    }
+
   tbody > tr > th{
+    border-bottom: 1px #282828;
+    p{
     color: #fbfbfb;
+    font-size: 13px;
+    padding-right: 10px;
+    }
+    & > a.get_the_deal{
+    color: #fbfbfb;
+    background: #f933ac;
+    text-align: center;
+    display: inline-block;
+    width: 150px;
+    text-align: center;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    border-radius: 5px;
+    
+    }
+    // &:nth-child(4){
+    //   background: #f933ac;
+    //   padding-right: 0;
+    // }
+
     }
   }
+}
+
+.valign-mid{
+  vertical-align: middle;
 }
